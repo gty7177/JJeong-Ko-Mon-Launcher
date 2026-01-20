@@ -28,7 +28,7 @@ function initAutoUpdater(event, data) {
     
     if(isDev){
         autoUpdater.autoInstallOnAppQuit = false
-        autoUpdater.updateConfigPath = path.join(__dirname, 'dev-app-update.yml')
+        //autoUpdater.updateConfigPath = path.join(__dirname, 'dev-app-update.yml')
     }
     if(process.platform === 'darwin'){
         autoUpdater.autoDownload = false
@@ -227,8 +227,8 @@ let win
 function createWindow() {
 
     win = new BrowserWindow({
-        width: 980,
-        height: 552,
+        width: 1120,
+        height: 670,
         icon: getPlatformIcon('Icon'),
         frame: false,
         webPreferences: {

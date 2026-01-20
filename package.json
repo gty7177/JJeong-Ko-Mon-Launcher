@@ -1,13 +1,13 @@
 {
-  "name": "mrslauncher",
-  "version": "3.0.6",
-  "productName": "MRS Launcher",
+  "name": "jjeongkomonlauncher",
+  "version": "1.0.0",
+  "productName": "jjeongkomon Launcher",
   "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/), peunsu (https://github.com/peunsu)",
+  "author": "",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/peunsu/MRSLauncher",
+  "homepage": "",
   "bugs": {
-    "url": "https://github.com/peunsu/MRSLauncher/issues"
+    "url": ""
   },
   "private": true,
   "main": "index.js",
@@ -17,7 +17,14 @@
     "dist:win": "npm run dist -- -w",
     "dist:mac": "npm run dist -- -m",
     "dist:linux": "npm run dist -- -l",
-    "lint": "eslint --config .eslintrc.json ."
+    "lint": "eslint --config .eslintrc.json .",
+    "build:osx": "electron-builder --mac",
+    "build:linux": "npm run build:linux32 && npm run build:linux64",
+    "build:linux32": "electron-builder --linux --ia32",
+    "build:linux64": "electron-builder --linux --x64",
+    "build:win": "npm run build:win32 && npm run build:win64",
+    "build:win32": "electron-builder --win portable --ia32",
+    "build:win64": "electron-builder --win portable --x64"
   },
   "engines": {
     "node": "20.x.x"
@@ -46,6 +53,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/peunsu/MRSLauncher.git"
+    "url": ""
   }
 }

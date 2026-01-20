@@ -3189,8 +3189,8 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Divider used on the bottom of the landing view. */
 .bot_divider {
-    height: 25px;
-    width: 2px;
+    height: 50px;
+    width: 4px;
     background: rgba(107, 105, 105, 0.7);
     margin-left: 20px;
     margin-right: 20px;
@@ -3209,8 +3209,8 @@ input:checked + .toggleSwitchSlider:before {
 /* Span which displays the player count of the selected server. */
 #player_count {
     color: #949494;
-    font-size: 9px;
-    font-weight: 900;
+    font-size: 12px;
+    font-weight: 1800;
     text-shadow: 0px 0px 20px #949494;
     margin-left: 10px;
 }
@@ -3400,8 +3400,8 @@ input:checked + .toggleSwitchSlider:before {
     cursor: pointer;
     font-weight: 900;
     letter-spacing: 2px;
-    text-shadow: 0px 0px 0px #bebcbb;
-    font-size: 20px;
+    text-shadow: 3px 3px 3px #bebcbb;
+    font-size: 40px;
     padding: 0px;
     transition: 0.25s ease;
     outline: none;
@@ -3947,9 +3947,9 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Rotating image for the spinner. */
 #loadSpinnerImage {
-    width: 280px;
+    width: 420px;
     height: auto;
-    z-index: 400;
+    z-index: 600;
 }
 
 /* Rotating animation for the spinner. */

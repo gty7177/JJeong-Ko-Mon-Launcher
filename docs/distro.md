@@ -459,7 +459,7 @@ Ex.
     "artifact": {
     "size": 1196222,
     "MD5": "a43d5a142246801343b6cedef1c102c4",
-    "url": "http://localhost:8080/repo/lib/net/fabricmc/fabric-loader/0.15.0/fabric-loader-0.15.0.jar"
+    "url": "http://125.188.165.199:9090/nebula/repo/lib/net/fabricmc/fabric-loader/0.15.0/fabric-loader-0.15.0.jar"
     },
     "subModules": [
     {
@@ -469,7 +469,7 @@ Ex.
         "artifact": {
         "size": 2847,
         "MD5": "69a2bd43452325ba1bc882fa0904e054",
-        "url": "http://localhost:8080/repo/versions/1.20.1-fabric-0.15.0/1.20.1-fabric-0.15.0.json"
+        "url": "http://125.188.165.199:9090/nebula/repo/versions/1.20.1-fabric-0.15.0/1.20.1-fabric-0.15.0.json"
         }
     }
 }
